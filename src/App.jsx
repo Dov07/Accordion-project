@@ -8,7 +8,7 @@ import iconMinus from '../assets/images/icon-minus.svg'
 const FAQs = [
   {
     id: 1,
-    question: "What is Frontend Mentor, and how will it help me",
+    question: "What is Frontend Mentor, and how will it help me?",
     answer: "Frontend Mentor offers realistic coding challanges to help developers imrove their frontend skills with projects in HTML, CSS and JavaScript. It's suitable for all levels and ideal for portfolio building."
   },
   {
