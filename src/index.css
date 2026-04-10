@@ -1,0 +1,106 @@
+:root{
+  --White: hsl(0, 100%, 100%);
+--Purple100: hsl(275, 100%, 97%);
+ --Purple600: hsl(292, 16%, 49%);
+--Purple950: hsl(292, 42%, 14%);
+}
+
+
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('../assets/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('../assets/fonts/WorkSans-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--Purple600);
+
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+.card{
+  position: relative;
+}
+.img-area img{
+  width: 100%;
+
+
+}
+
+.faqs-card{
+  width: 35rem;
+  height: auto;
+  background-color: var(--White);
+  padding: 1rem;
+  display: grid;
+  gap: 2rem;
+  position: absolute;
+  top: 10rem;
+  left: 32%;
+  border-radius: 1rem;
+
+}
+
+.header{
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0 0 1rem;
+}
+
+.header img{
+  width: 2rem;
+}
+.header h1{
+  font-size: 3rem;
+}
+.a{
+    display: grid;
+    gap: 2rem;
+    border-bottom: 1px solid var(--Purple100);
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+
+.aq{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+
+}
+.aq p {
+  align-items: center;
+  font-weight: bold;
+}
+.aq p:hover{
+  color: var(--Purple600);
+}
+.aq button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.b p{
+  font-size: 1rem;
+  color: var(--Purple600);
+  line-height: 1.3rem;
+}
