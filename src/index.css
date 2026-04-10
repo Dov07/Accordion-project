@@ -117,10 +117,6 @@ body{
   }
 
  
-  .header {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
 
   .header h1 {
     font-size: 2rem;
