@@ -60,7 +60,7 @@ const action =(id) =>{
                 <div className='quest-faq'>
                 <p>{oyecomova.question}</p>
                 <button type="button" >
-                  {ActiveID === oyecomova.id ? <img src={iconMinus} alt="minus" /> :  <img src={iconPlus} alt="plus" />}
+                  {ActiveID === oyecomova.id ? <img src={iconMinus} alt="close" /> :  <img src={iconPlus} alt="open" />}
                   
                  
 
