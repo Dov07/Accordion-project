@@ -71,7 +71,7 @@ body{
 .header h1{
   font-size: 3rem;
 }
-.a{
+.quest-answer{
     display: grid;
     gap: 2rem;
     border-bottom: 1px solid var(--Purple100);
@@ -80,26 +80,26 @@ body{
 }
 
 
-.aq{
+.quest-faq{
   display: flex;
   justify-content: space-between;
   cursor: pointer;
 
 }
-.aq p {
+.quest-faq p {
   align-items: center;
   font-weight: bold;
 }
-.aq p:hover{
+.quest-faq p:hover{
   color: var(--Purple600);
 }
-.aq button{
+.quest-faq button{
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
 
-.b p{
+.answer p{
   font-size: 1rem;
   color: var(--Purple600);
   line-height: 1.3rem;

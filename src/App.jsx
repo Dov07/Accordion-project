@@ -52,8 +52,8 @@ const action =(id) =>{
         <div>
           {
             FAQs.map(oyecomova => (
-              <div onClick={()=> action(oyecomova.id)} className='a' key={oyecomova.id}>
-                <div className='aq'>
+              <div onClick={()=> action(oyecomova.id)} className='quest-answer' key={oyecomova.id}>
+                <div className='quest-faq'>
                 <p>{oyecomova.question}</p>
                 <button  >
                   {ActiveID === oyecomova.id ? <img src={iconMinus} alt="minus" /> :  <img src={iconPlus} alt="plus" />}
@@ -63,7 +63,7 @@ const action =(id) =>{
                 </button>
                 </div>
                 { ActiveID === oyecomova.id &&(
-                <div className='b'>
+                <div className='answer'>
                   <p>{oyecomova.answer}</p>
                 </div>
 )}
