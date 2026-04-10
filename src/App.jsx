@@ -41,7 +41,7 @@ const action =(id) =>{
     <div className='card'>
       <div className='img-area'>
         <picture>
-    <source style={{width:"100%"}} media="(max-width: 768px)" srcSet={mLogo} />
+    <source  media="(max-width: 768px)" srcSet={mLogo} />
     <img src={bg} alt="background" />
   </picture>
       </div>
