@@ -59,7 +59,7 @@ const action =(id) =>{
               <div onClick={()=> action(oyecomova.id)} className='quest-answer' key={oyecomova.id}>
                 <div className='quest-faq'>
                 <p>{oyecomova.question}</p>
-                <button  >
+                <button type="button" >
                   {ActiveID === oyecomova.id ? <img src={iconMinus} alt="minus" /> :  <img src={iconPlus} alt="plus" />}
                   
                  
