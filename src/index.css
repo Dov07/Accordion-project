@@ -104,3 +104,25 @@ body{
   color: var(--Purple600);
   line-height: 1.3rem;
 }
+
+
+@media (max-width: 768px) {
+  .faqs-card {
+    width: 80%; 
+    top: 6rem;
+    left: 10%;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 1rem;
+  }
+
+ 
+  .header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+}

@@ -3,6 +3,7 @@ import bg from '../assets/images/background-pattern-desktop.svg'
 import logo from '../assets/images/icon-star.svg'
 import iconPlus from '../assets/images/icon-plus.svg'
 import iconMinus from '../assets/images/icon-minus.svg'
+import mLogo from '../assets/images/background-pattern-mobile.svg'
 
 
 const FAQs = [
@@ -39,7 +40,10 @@ const action =(id) =>{
   return (
     <div className='card'>
       <div className='img-area'>
-        <img src={bg} alt="#" />
+        <picture>
+    <source style={{width:"100%"}} media="(max-width: 768px)" srcSet={mLogo} />
+    <img src={bg} alt="background" />
+  </picture>
       </div>
       <div>
 
